@@ -59,6 +59,7 @@ public class ApplicationUser implements UserDetails {
         return password;
     }
 
+
     @Override
     public String getUsername() {
         return email;
